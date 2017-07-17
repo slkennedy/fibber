@@ -8,6 +8,8 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "build-css": "node-sass-chokidar styles/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar styles/ -o src/ --watch --recursive",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -16,5 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/slkennedy/fibber.git"
+  },
+  "devDependencies": {
+    "@unumux/theme-coloniallife-default": "0.3.11", 
+    "node-sass-chokidar": "0.0.3"
   }
 }
