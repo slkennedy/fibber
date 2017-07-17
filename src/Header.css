@@ -1,0 +1,19 @@
+.Header {
+    background-color: #3F46B4;
+    color: #fff;
+}
+
+.Header__heading{
+    padding-top: 3rem;
+}
+
+.Header__logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 25rem;
+}
+
+.Header__description {
+    padding-bottom: 3rem;
+}
