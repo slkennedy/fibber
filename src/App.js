@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
+import { combineReducers, createStore } from 'redux';
+import test from './reducers/test';
+
 import './App.css';
-import {Header} from "./Header";
-import {Footer} from "./Footer";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+
+const reducer = combineReducers({ test });
+const store = createStore(reducer);
+
 
 class App extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React from 'react';
-import fibLogo from './fiblogo.png';
+import fibLogo from '../../fiblogo.png';
 
 
-export const Footer = () => {
+export default () => {
     return(
         <footer className="willow-page-footer" role="contentinfo">
             <div className="willow-page-footer__branding">

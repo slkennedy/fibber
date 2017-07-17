@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import fibLogo from './fiblogo.png';
-import './Header.css';
+import fibLogo from '../../fiblogo.png';
+import './header.css';
 
 
-export const Header = ({heading, description}) => {
+export default ({heading, description}) => {
     return (
         <header className="Header">
             <div className="Header__container">

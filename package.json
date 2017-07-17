@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2"
   },
   "scripts": {
     "build-css": "node-sass-chokidar styles/ -o src/",
@@ -20,7 +22,7 @@
     "url": "https://github.com/slkennedy/fibber.git"
   },
   "devDependencies": {
-    "@unumux/theme-coloniallife-default": "0.3.11", 
+    "@unumux/theme-coloniallife-default": "0.3.11",
     "node-sass-chokidar": "0.0.3"
   }
 }
