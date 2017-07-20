@@ -1,19 +1,19 @@
-.Header {
-    background-color: #3F46B4;
+.header {
+    background-color: #2a668f;
     color: #fff;
 }
 
-.Header__heading{
+.header__heading{
     padding-top: 3rem;
 }
 
-.Header__logo {
+.header__logo {
     display: block;
     margin: 0 auto;
     margin-bottom: 2rem;
     width: 25rem;
 }
 
-.Header__description {
+.header__description {
     padding-bottom: 3rem;
 }

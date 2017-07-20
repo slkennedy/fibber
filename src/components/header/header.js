@@ -5,12 +5,12 @@ import './header.css';
 
 export default ({heading, description}) => {
     return (
-        <header className="Header">
-            <div className="Header__container">
-                <h1 className="Header__heading">{heading}</h1>
-                <img src={fibLogo} className="Header__logo" alt="logo" />
+        <header className="header">
+            <div className="header__container">
+                <h1 className="header__heading">{heading}</h1>
+                <img src={fibLogo} className="header__logo" alt="logo" />
             </div>
-            <div className="Header__description">{description}</div>
+            <div className="header__description">{description}</div>
         </header>
     );
 }
