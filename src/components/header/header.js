@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import fibLogo from '../../fiblogo.png';
 import './header.css';
 

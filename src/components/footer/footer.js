@@ -8,7 +8,7 @@ export default () => {
             <div className="willow-page-footer__branding">
                 <a className="willow-logo-link" href="/" aria-label="go to home page"><img className="willow-logo-link__image" src={fibLogo} alt="" /></a>
             </div>
-            <div className="willow-page-footer__navigation">    
+            <div className="willow-page-footer__navigation">                    
                 <nav className="willow-footer-nav" role="navigation" aria-label="footer">
                     <h1 className="willow-footer-nav__heading sr-only">Site Footer Menu</h1>
                     <ul className="willow-footer-nav__list">
