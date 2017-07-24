@@ -1,6 +1,6 @@
 import React from 'react';
 import fibLogo from '../../fiblogo.png';
-
+import './footer.css';
 
 export default () => {
     return(
