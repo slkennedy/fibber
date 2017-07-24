@@ -1,0 +1,13 @@
+.fib {
+    background-color: #def;
+    padding: 20px;
+}
+
+.fib__text {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.fib__author {
+    font-style: italic;
+}

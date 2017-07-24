@@ -15,7 +15,7 @@ class App extends React.Component {
     }
 
     get currentFib() {
-        return this.props.fibs[this.state.currentFibID].fib;
+        return this.props.fibs[this.state.currentFibID];
     }
 
     render() {
@@ -26,7 +26,7 @@ class App extends React.Component {
                         heading = "Welcome to:"
                         description = "Select the button below and decide for yourself whether to believe the fib or not..." >
                     </Header>
-                    <Fib text={this.currentFib} />
+                    <Fib fib={this.currentFib} />
                     <Footer></Footer>
                 </div>
             </div>
