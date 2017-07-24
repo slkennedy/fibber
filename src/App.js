@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 import Header from "./components/header/header";
 import Fib from "./components/fib/fib";
-import Button from './components/button/button';
 import Footer from "./components/footer/footer";
 
 
