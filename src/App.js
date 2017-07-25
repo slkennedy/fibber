@@ -1,11 +1,10 @@
 import React from 'react';
 
 import './App.css';
-import Header from "./components/header/header";
-import Fib from "./components/fib/fib";
-import Footer from "./components/footer/footer";
+import Header from "./components/header";
+import Fib from "./components/fib";
+import Footer from "./components/footer";
 import random from "./random";
-
 
 class App extends React.Component {
     constructor(props) {
