@@ -4,13 +4,14 @@ import './App.css';
 import Header from "./components/header/header";
 import Fib from "./components/fib/fib";
 import Footer from "./components/footer/footer";
+import random from "./random";
 
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentFibID: Math.floor(Math.random() * this.props.fibs.length)
+            currentFibID: random(this.props.fibs.length)
         };
 
         this.setCurrentFibID = this.setCurrentFibID.bind(this);
@@ -24,7 +25,7 @@ class App extends React.Component {
         this.setState((previousState, props) => {
             console.log(previousState);
             return {
-                currentFibID: Math.floor(Math.random() * this.props.fibs.length)
+                currentFibID: random(this.props.fibs.length)
             }
         });
     }
